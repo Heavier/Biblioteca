@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-76,0,0,3,-10"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout"/>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xfa;mero:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="0" gridY="0" gridWidth="1" gridHeight="1" fill="0" ipadX="3" ipadY="3" insetsTop="3" insetsLeft="2" insetsBottom="1" insetsRight="1" anchor="12" weightX="0.0" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Formato de documento:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="0" gridY="1" gridWidth="1" gridHeight="1" fill="0" ipadX="3" ipadY="3" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="12" weightX="0.0" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A&#xf1;o de publicaci&#xf3;n:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="0" gridY="5" gridWidth="1" gridHeight="1" fill="0" ipadX="3" ipadY="3" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="12" weightX="0.0" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Autor:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="0" gridY="3" gridWidth="1" gridHeight="1" fill="0" ipadX="3" ipadY="3" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="12" weightX="0.0" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Otros autores:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="0" gridY="4" gridWidth="1" gridHeight="1" fill="0" ipadX="3" ipadY="3" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="12" weightX="0.0" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="T&#xed;tulo:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="0" gridY="2" gridWidth="1" gridHeight="1" fill="0" ipadX="3" ipadY="3" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="12" weightX="0.0" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Lugar de publicaci&#xf3;n:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="0" gridY="6" gridWidth="1" gridHeight="1" fill="0" ipadX="3" ipadY="3" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="12" weightX="0.0" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Edici&#xf3;n:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="2" gridY="0" gridWidth="1" gridHeight="1" fill="0" ipadX="3" ipadY="3" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="12" weightX="0.0" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Editorial:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="2" gridY="1" gridWidth="1" gridHeight="1" fill="0" ipadX="3" ipadY="3" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="12" weightX="0.0" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CDU:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="2" gridY="7" gridWidth="1" gridHeight="1" fill="0" ipadX="3" ipadY="3" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="12" weightX="0.0" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Notas:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="0" gridY="9" gridWidth="1" gridHeight="1" fill="0" ipadX="3" ipadY="3" insetsTop="5" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="12" weightX="0.0" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dep&#xf3;sito legal:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="2" gridY="2" gridWidth="1" gridHeight="1" fill="0" ipadX="3" ipadY="3" insetsTop="3" insetsLeft="2" insetsBottom="1" insetsRight="1" anchor="12" weightX="0.0" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ISBN:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="2" gridY="3" gridWidth="1" gridHeight="1" fill="0" ipadX="3" ipadY="3" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="12" weightX="0.0" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pa&#xed;s:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="2" gridY="4" gridWidth="1" gridHeight="1" fill="0" ipadX="3" ipadY="3" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="12" weightX="0.0" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel16">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Lengua:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="2" gridY="5" gridWidth="1" gridHeight="1" fill="0" ipadX="3" ipadY="3" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="12" weightX="0.0" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel17">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xfa;mero de p&#xe1;ginas:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="0" gridY="8" gridWidth="1" gridHeight="1" fill="0" ipadX="3" ipadY="3" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="12" weightX="0.0" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel18">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Signatura:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="2" gridY="6" gridWidth="1" gridHeight="1" fill="0" ipadX="3" ipadY="3" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="12" weightX="0.0" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField2">
+      <Properties>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[200, 30]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="1" gridY="3" gridWidth="1" gridHeight="1" fill="2" ipadX="0" ipadY="0" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="10" weightX="0.1" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField3">
+      <Properties>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[200, 30]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="1" gridY="4" gridWidth="1" gridHeight="1" fill="2" ipadX="0" ipadY="0" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="10" weightX="0.1" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField4">
+      <Properties>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[200, 30]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="1" gridY="2" gridWidth="1" gridHeight="1" fill="2" ipadX="0" ipadY="0" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="10" weightX="0.1" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField5">
+      <Properties>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[200, 30]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="1" gridY="6" gridWidth="1" gridHeight="1" fill="2" ipadX="0" ipadY="0" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="10" weightX="0.1" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="11">
+            <StringItem index="0" value="Libro impreso"/>
+            <StringItem index="1" value="Monograf&#xed;a"/>
+            <StringItem index="2" value="Serie"/>
+            <StringItem index="3" value="Anal&#xed;tica"/>
+            <StringItem index="4" value="Sonoro"/>
+            <StringItem index="5" value="Videograbaci&#xf3;n"/>
+            <StringItem index="6" value="Archivo de ordenador"/>
+            <StringItem index="7" value="Cartogr&#xe1;fico"/>
+            <StringItem index="8" value="Manuscrito"/>
+            <StringItem index="9" value="Material Gr&#xe1;fico"/>
+            <StringItem index="10" value="Partitura"/>
+          </StringArray>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[200, 30]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="1" gridY="1" gridWidth="1" gridHeight="1" fill="2" ipadX="3" ipadY="3" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="10" weightX="0.1" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox2">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="56">
+            <StringItem index="0" value="1960"/>
+            <StringItem index="1" value="1961"/>
+            <StringItem index="2" value="1962"/>
+            <StringItem index="3" value="1963"/>
+            <StringItem index="4" value="1964"/>
+            <StringItem index="5" value="1965"/>
+            <StringItem index="6" value="1966"/>
+            <StringItem index="7" value="1967"/>
+            <StringItem index="8" value="1968"/>
+            <StringItem index="9" value="1969"/>
+            <StringItem index="10" value="1970"/>
+            <StringItem index="11" value="1971"/>
+            <StringItem index="12" value="1972"/>
+            <StringItem index="13" value="1973"/>
+            <StringItem index="14" value="1974"/>
+            <StringItem index="15" value="1975"/>
+            <StringItem index="16" value="1976"/>
+            <StringItem index="17" value="1977"/>
+            <StringItem index="18" value="1978"/>
+            <StringItem index="19" value="1979"/>
+            <StringItem index="20" value="1980"/>
+            <StringItem index="21" value="1981"/>
+            <StringItem index="22" value="1982"/>
+            <StringItem index="23" value="1983"/>
+            <StringItem index="24" value="1984"/>
+            <StringItem index="25" value="1985"/>
+            <StringItem index="26" value="1986"/>
+            <StringItem index="27" value="1987"/>
+            <StringItem index="28" value="1988"/>
+            <StringItem index="29" value="1989"/>
+            <StringItem index="30" value="1990"/>
+            <StringItem index="31" value="1991"/>
+            <StringItem index="32" value="1992"/>
+            <StringItem index="33" value="1993"/>
+            <StringItem index="34" value="1994"/>
+            <StringItem index="35" value="1995"/>
+            <StringItem index="36" value="1996"/>
+            <StringItem index="37" value="1997"/>
+            <StringItem index="38" value="1998"/>
+            <StringItem index="39" value="1999"/>
+            <StringItem index="40" value="2000"/>
+            <StringItem index="41" value="2001"/>
+            <StringItem index="42" value="2002"/>
+            <StringItem index="43" value="2003"/>
+            <StringItem index="44" value="2004"/>
+            <StringItem index="45" value="2005"/>
+            <StringItem index="46" value="2006"/>
+            <StringItem index="47" value="2007"/>
+            <StringItem index="48" value="2008"/>
+            <StringItem index="49" value="2009"/>
+            <StringItem index="50" value="2010"/>
+            <StringItem index="51" value="2011"/>
+            <StringItem index="52" value="2012"/>
+            <StringItem index="53" value="2013"/>
+            <StringItem index="54" value="2014"/>
+            <StringItem index="55" value="2015"/>
+          </StringArray>
+        </Property>
+        <Property name="selectedIndex" type="int" value="55"/>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[200, 30]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="1" gridY="5" gridWidth="1" gridHeight="1" fill="2" ipadX="3" ipadY="3" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="10" weightX="0.1" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox5">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="24">
+            <StringItem index="0" value="Generalidades"/>
+            <StringItem index="1" value="Filosof&#xed;a"/>
+            <StringItem index="2" value="Psicolog&#xed;a"/>
+            <StringItem index="3" value="Religi&#xf3;n"/>
+            <StringItem index="4" value="Teolog&#xed;a"/>
+            <StringItem index="5" value="Ciencias Sociales"/>
+            <StringItem index="6" value="Econom&#xed;a"/>
+            <StringItem index="7" value="Derecho"/>
+            <StringItem index="8" value="Educaci&#xf3;n"/>
+            <StringItem index="9" value="Matem&#xe1;ticas"/>
+            <StringItem index="10" value="Ciencias naturales"/>
+            <StringItem index="11" value="Ciencias aplicadas"/>
+            <StringItem index="12" value="Medicina"/>
+            <StringItem index="13" value="Tecnolog&#xed;a"/>
+            <StringItem index="14" value="Arte"/>
+            <StringItem index="15" value="Bellas artes"/>
+            <StringItem index="16" value="Deportes"/>
+            <StringItem index="17" value="Lenguaje"/>
+            <StringItem index="18" value="Ling&#xfc;&#xed;stica"/>
+            <StringItem index="19" value="Literatura"/>
+            <StringItem index="20" value="Geograf&#xed;a"/>
+            <StringItem index="21" value="Biograf&#xed;as"/>
+            <StringItem index="22" value="Histori"/>
+            <StringItem index="23" value=" "/>
+          </StringArray>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[200, 30]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="3" gridY="7" gridWidth="3" gridHeight="1" fill="2" ipadX="0" ipadY="0" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="10" weightX="0.1" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox6">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="213">
+            <StringItem index="0" value="Afganistan"/>
+            <StringItem index="1" value="Africa del Sur"/>
+            <StringItem index="2" value="Albania"/>
+            <StringItem index="3" value="Alemania"/>
+            <StringItem index="4" value="Andorra"/>
+            <StringItem index="5" value="Angola"/>
+            <StringItem index="6" value="Antigua y Barbuda"/>
+            <StringItem index="7" value="Antillas Holandesas"/>
+            <StringItem index="8" value="Arabia Saudita"/>
+            <StringItem index="9" value="Argelia"/>
+            <StringItem index="10" value="Argentina"/>
+            <StringItem index="11" value="Armenia"/>
+            <StringItem index="12" value="Aruba"/>
+            <StringItem index="13" value="Australia"/>
+            <StringItem index="14" value="Austria"/>
+            <StringItem index="15" value="Azerbaijan"/>
+            <StringItem index="16" value="Bahamas"/>
+            <StringItem index="17" value="Bahrain"/>
+            <StringItem index="18" value="Bangladesh"/>
+            <StringItem index="19" value="Barbados"/>
+            <StringItem index="20" value="Belarusia"/>
+            <StringItem index="21" value="Belgica"/>
+            <StringItem index="22" value="Belice"/>
+            <StringItem index="23" value="Benin"/>
+            <StringItem index="24" value="Bermudas"/>
+            <StringItem index="25" value="Bolivia"/>
+            <StringItem index="26" value="Bosnia"/>
+            <StringItem index="27" value="Botswana"/>
+            <StringItem index="28" value="Brasil"/>
+            <StringItem index="29" value="Brunei Darussulam"/>
+            <StringItem index="30" value="Bulgaria"/>
+            <StringItem index="31" value="Burkina Faso"/>
+            <StringItem index="32" value="Burundi"/>
+            <StringItem index="33" value="Butan"/>
+            <StringItem index="34" value="Camboya"/>
+            <StringItem index="35" value="Camerun"/>
+            <StringItem index="36" value="Canada"/>
+            <StringItem index="37" value="Cape Verde"/>
+            <StringItem index="38" value="Chad"/>
+            <StringItem index="39" value="Chile"/>
+            <StringItem index="40" value="China"/>
+            <StringItem index="41" value="Colombia"/>
+            <StringItem index="42" value="Comoros"/>
+            <StringItem index="43" value="Congo"/>
+            <StringItem index="44" value="Corea del Norte"/>
+            <StringItem index="45" value="Corea del Sur"/>
+            <StringItem index="46" value="Costa de Marf&#xed;l"/>
+            <StringItem index="47" value="Costa Rica"/>
+            <StringItem index="48" value="Croasia"/>
+            <StringItem index="49" value="Cuba"/>
+            <StringItem index="50" value="Dinamarca"/>
+            <StringItem index="51" value="Djibouti"/>
+            <StringItem index="52" value="Dominica"/>
+            <StringItem index="53" value="Ecuador"/>
+            <StringItem index="54" value="Egipto"/>
+            <StringItem index="55" value="El Salvador"/>
+            <StringItem index="56" value="Emiratos Arabes Unidos"/>
+            <StringItem index="57" value="Eritrea"/>
+            <StringItem index="58" value="Eslovenia"/>
+            <StringItem index="59" value="Espa&#xf1;a"/>
+            <StringItem index="60" value="Estados Unidos"/>
+            <StringItem index="61" value="Estonia"/>
+            <StringItem index="62" value="Etiopia"/>
+            <StringItem index="63" value="Fiji"/>
+            <StringItem index="64" value="Filipinas"/>
+            <StringItem index="65" value="Finlandia"/>
+            <StringItem index="66" value="Francia"/>
+            <StringItem index="67" value="Gabon"/>
+            <StringItem index="68" value="Gambia"/>
+            <StringItem index="69" value="Georgia"/>
+            <StringItem index="70" value="Ghana"/>
+            <StringItem index="71" value="Granada"/>
+            <StringItem index="72" value="Grecia"/>
+            <StringItem index="73" value="Groenlandia"/>
+            <StringItem index="74" value="Guadalupe"/>
+            <StringItem index="75" value="Guam"/>
+            <StringItem index="76" value="Guatemala"/>
+            <StringItem index="77" value="Guayana Francesa"/>
+            <StringItem index="78" value="Guerney"/>
+            <StringItem index="79" value="Guinea"/>
+            <StringItem index="80" value="Guinea-Bissau"/>
+            <StringItem index="81" value="Guinea Equatorial"/>
+            <StringItem index="82" value="Guyana"/>
+            <StringItem index="83" value="Haiti"/>
+            <StringItem index="84" value="Holanda"/>
+            <StringItem index="85" value="Honduras"/>
+            <StringItem index="86" value="Hong Kong"/>
+            <StringItem index="87" value="Hungria"/>
+            <StringItem index="88" value="India"/>
+            <StringItem index="89" value="Indonesia"/>
+            <StringItem index="90" value="Irak"/>
+            <StringItem index="91" value="Iran"/>
+            <StringItem index="92" value="Irlanda"/>
+            <StringItem index="93" value="Islandia"/>
+            <StringItem index="94" value="Islas Caiman"/>
+            <StringItem index="95" value="Islas Faroe"/>
+            <StringItem index="96" value="Islas Malvinas"/>
+            <StringItem index="97" value="Islas Marshall"/>
+            <StringItem index="98" value="Islas Solomon"/>
+            <StringItem index="99" value="Islas Virgenes Britanicas"/>
+            <StringItem index="100" value="Islas Virgenes (U.S.)"/>
+            <StringItem index="101" value="Israel"/>
+            <StringItem index="102" value="Italia"/>
+            <StringItem index="103" value="Jamaica"/>
+            <StringItem index="104" value="Japon"/>
+            <StringItem index="105" value="Jersey"/>
+            <StringItem index="106" value="Jordania"/>
+            <StringItem index="107" value="Kazakhstan"/>
+            <StringItem index="108" value="Kenia"/>
+            <StringItem index="109" value="Kiribati"/>
+            <StringItem index="110" value="Kuwait"/>
+            <StringItem index="111" value="Kyrgyzstan"/>
+            <StringItem index="112" value="Laos"/>
+            <StringItem index="113" value="Latvia"/>
+            <StringItem index="114" value="Lesotho"/>
+            <StringItem index="115" value="Libano"/>
+            <StringItem index="116" value="Liberia"/>
+            <StringItem index="117" value="Libia"/>
+            <StringItem index="118" value="Liechtenstein"/>
+            <StringItem index="119" value="Lituania"/>
+            <StringItem index="120" value="Luxemburgo"/>
+            <StringItem index="121" value="Macao"/>
+            <StringItem index="122" value="Macedonia"/>
+            <StringItem index="123" value="Madagascar"/>
+            <StringItem index="124" value="Malasia"/>
+            <StringItem index="125" value="Malawi"/>
+            <StringItem index="126" value="Maldivas"/>
+            <StringItem index="127" value="Mali"/>
+            <StringItem index="128" value="Malta"/>
+            <StringItem index="129" value="Marruecos"/>
+            <StringItem index="130" value="Martinica"/>
+            <StringItem index="131" value="Mauricio"/>
+            <StringItem index="132" value="Mauritania"/>
+            <StringItem index="133" value="Mexico"/>
+            <StringItem index="134" value="Micronesia"/>
+            <StringItem index="135" value="Moldova"/>
+            <StringItem index="136" value="Monaco"/>
+            <StringItem index="137" value="Mongolia"/>
+            <StringItem index="138" value="Mozambique"/>
+            <StringItem index="139" value="Myanmar (Burma)"/>
+            <StringItem index="140" value="Namibia"/>
+            <StringItem index="141" value="Nepal"/>
+            <StringItem index="142" value="Nicaragua"/>
+            <StringItem index="143" value="Niger"/>
+            <StringItem index="144" value="Nigeria"/>
+            <StringItem index="145" value="Noruega"/>
+            <StringItem index="146" value="Nueva Caledonia"/>
+            <StringItem index="147" value="Nueva Zealandia"/>
+            <StringItem index="148" value="Oman"/>
+            <StringItem index="149" value="Pakistan"/>
+            <StringItem index="150" value="Palestina"/>
+            <StringItem index="151" value="Panama"/>
+            <StringItem index="152" value="Papua Nueva Guinea"/>
+            <StringItem index="153" value="Paraguay"/>
+            <StringItem index="154" value="Peru"/>
+            <StringItem index="155" value="Polinesia Francesa"/>
+            <StringItem index="156" value="Portugal"/>
+            <StringItem index="157" value="Qatar"/>
+            <StringItem index="158" value="Reino Unido"/>
+            <StringItem index="159" value="Republica Centroafricana"/>
+            <StringItem index="160" value="Republica Checa"/>
+            <StringItem index="161" value="Republica Democratica del Congo"/>
+            <StringItem index="162" value="Republica Dominicana"/>
+            <StringItem index="163" value="Republica Eslovaca"/>
+            <StringItem index="164" value="Reunion"/>
+            <StringItem index="165" value="Ruanda"/>
+            <StringItem index="166" value="Rumania"/>
+            <StringItem index="167" value="Rusia"/>
+            <StringItem index="168" value="Sahara"/>
+            <StringItem index="169" value="Samoa"/>
+            <StringItem index="170" value="San Cristobal-Nevis (St. Kitts)"/>
+            <StringItem index="171" value="San Marino"/>
+            <StringItem index="172" value="San Vincente y las Granadinas"/>
+            <StringItem index="173" value="Santa Helena"/>
+            <StringItem index="174" value="Santa Lucia"/>
+            <StringItem index="175" value="Santa Sede (Vaticano)"/>
+            <StringItem index="176" value="Sao Tome &amp; Principe"/>
+            <StringItem index="177" value="Senegal"/>
+            <StringItem index="178" value="Seychelles"/>
+            <StringItem index="179" value="Sierra Leona"/>
+            <StringItem index="180" value="Singapur"/>
+            <StringItem index="181" value="Siria"/>
+            <StringItem index="182" value="Somalia"/>
+            <StringItem index="183" value="Sri Lanka (Ceilan)"/>
+            <StringItem index="184" value="Sudan del Sur"/>
+            <StringItem index="185" value="Suecia"/>
+            <StringItem index="186" value="Suiza"/>
+            <StringItem index="187" value="Sur Africa"/>
+            <StringItem index="188" value="Surinam"/>
+            <StringItem index="189" value="Swaziland"/>
+            <StringItem index="190" value="Tailandia"/>
+            <StringItem index="191" value="Taiwan"/>
+            <StringItem index="192" value="Tajikistan"/>
+            <StringItem index="193" value="Tanzania"/>
+            <StringItem index="194" value="Timor Oriental"/>
+            <StringItem index="195" value="Togo"/>
+            <StringItem index="196" value="Tokelau"/>
+            <StringItem index="197" value="Tonga"/>
+            <StringItem index="198" value="Trinidad &amp; Tobago"/>
+            <StringItem index="199" value="Tunisia"/>
+            <StringItem index="200" value="Turkmenistan"/>
+            <StringItem index="201" value="Turquia"/>
+            <StringItem index="202" value="Ucrania"/>
+            <StringItem index="203" value="Uganda"/>
+            <StringItem index="204" value="Union Europea"/>
+            <StringItem index="205" value="Uruguay"/>
+            <StringItem index="206" value="Uzbekistan"/>
+            <StringItem index="207" value="Vanuatu"/>
+            <StringItem index="208" value="Venezuela"/>
+            <StringItem index="209" value="Vietnam"/>
+            <StringItem index="210" value="Yemen"/>
+            <StringItem index="211" value="Zambia"/>
+            <StringItem index="212" value="Zimbabwe"/>
+          </StringArray>
+        </Property>
+        <Property name="selectedIndex" type="int" value="59"/>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[200, 30]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="3" gridY="4" gridWidth="3" gridHeight="1" fill="2" ipadX="0" ipadY="0" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="10" weightX="0.1" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox7">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="76">
+            <StringItem index="0" value="Afrikaans"/>
+            <StringItem index="1" value="Alban&#xe9;s"/>
+            <StringItem index="2" value="Alem&#xe1;n"/>
+            <StringItem index="3" value="Amharico"/>
+            <StringItem index="4" value="Arabe"/>
+            <StringItem index="5" value="Armenio "/>
+            <StringItem index="6" value="Bengali"/>
+            <StringItem index="7" value="Bieloruso"/>
+            <StringItem index="8" value="Birman&#xe9;s"/>
+            <StringItem index="9" value="Bulgaro"/>
+            <StringItem index="10" value="Catalan"/>
+            <StringItem index="11" value="Checo"/>
+            <StringItem index="12" value="Chino"/>
+            <StringItem index="13" value="Coreano"/>
+            <StringItem index="14" value="Croata"/>
+            <StringItem index="15" value="Dan&#xe9;s"/>
+            <StringItem index="16" value="Dari"/>
+            <StringItem index="17" value="Dzongkha "/>
+            <StringItem index="18" value="Escoc&#xe9;s"/>
+            <StringItem index="19" value="Eslovaco"/>
+            <StringItem index="20" value="Esloveniano"/>
+            <StringItem index="21" value="Espa&#xf1;ol"/>
+            <StringItem index="22" value="Esperanto"/>
+            <StringItem index="23" value="Estoniano "/>
+            <StringItem index="24" value="Faroese"/>
+            <StringItem index="25" value="Farsi"/>
+            <StringItem index="26" value="Finland&#xe9;s"/>
+            <StringItem index="27" value="Franc&#xe9;s"/>
+            <StringItem index="28" value="Gaelico"/>
+            <StringItem index="29" value="Galese"/>
+            <StringItem index="30" value="Gallego"/>
+            <StringItem index="31" value="Griego "/>
+            <StringItem index="32" value="Hebreo"/>
+            <StringItem index="33" value="Hindi"/>
+            <StringItem index="34" value="Holand&#xe9;s"/>
+            <StringItem index="35" value="Hungaro "/>
+            <StringItem index="36" value="Ingl&#xe9;s"/>
+            <StringItem index="37" value="Indonesio"/>
+            <StringItem index="38" value="Inuktitut (Eskimo)"/>
+            <StringItem index="39" value="Islandico"/>
+            <StringItem index="40" value="Italiano"/>
+            <StringItem index="41" value="Japon&#xe9;s"/>
+            <StringItem index="42" value="Khmer"/>
+            <StringItem index="43" value="Kurdo "/>
+            <StringItem index="44" value="Lao"/>
+            <StringItem index="45" value="Laponico"/>
+            <StringItem index="46" value="Latviano"/>
+            <StringItem index="47" value="Lituano"/>
+            <StringItem index="48" value="Macedonio"/>
+            <StringItem index="49" value="Malay&#xe9;s"/>
+            <StringItem index="50" value="Malt&#xe9;s"/>
+            <StringItem index="51" value="Nepali"/>
+            <StringItem index="52" value="Noruego"/>
+            <StringItem index="53" value="Pashto"/>
+            <StringItem index="54" value="Polaco"/>
+            <StringItem index="55" value="Portugu&#xe9;s"/>
+            <StringItem index="56" value="Rumano"/>
+            <StringItem index="57" value="Ruso "/>
+            <StringItem index="58" value="Serbio"/>
+            <StringItem index="59" value="Somali"/>
+            <StringItem index="60" value="Suahili"/>
+            <StringItem index="61" value="Sueco "/>
+            <StringItem index="62" value="Tagalog-Filipino"/>
+            <StringItem index="63" value="Tajik"/>
+            <StringItem index="64" value="Tamil"/>
+            <StringItem index="65" value="Tailand&#xe9;s"/>
+            <StringItem index="66" value="Tibetano"/>
+            <StringItem index="67" value="Tigrinia"/>
+            <StringItem index="68" value="Tongan&#xe9;s"/>
+            <StringItem index="69" value="Turco"/>
+            <StringItem index="70" value="Turkmenistano"/>
+            <StringItem index="71" value="Ucraniano"/>
+            <StringItem index="72" value="Urdu"/>
+            <StringItem index="73" value="Uzbekistano "/>
+            <StringItem index="74" value="Vasco"/>
+            <StringItem index="75" value="Vietnam&#xe9;s"/>
+          </StringArray>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[200, 30]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="3" gridY="5" gridWidth="3" gridHeight="1" fill="2" ipadX="0" ipadY="0" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="10" weightX="0.1" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="1" gridY="9" gridWidth="1" gridHeight="1" fill="1" ipadX="0" ipadY="0" insetsTop="5" insetsLeft="3" insetsBottom="2" insetsRight="2" anchor="10" weightX="0.1" weightY="0.1"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[164, 60]"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel19">
+      <Properties>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[10, 10]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="4" gridY="2" gridWidth="1" gridHeight="1" fill="0" ipadX="3" ipadY="3" insetsTop="3" insetsLeft="2" insetsBottom="1" insetsRight="1" anchor="10" weightX="0.0" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xfa;mero de ejemplares:"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="0" gridY="7" gridWidth="1" gridHeight="1" fill="0" ipadX="3" ipadY="3" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="13" weightX="0.0" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField1">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format subtype="1" type="0"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[200, 30]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="1" gridY="7" gridWidth="1" gridHeight="1" fill="2" ipadX="0" ipadY="0" insetsTop="2" insetsLeft="2" insetsBottom="1" insetsRight="1" anchor="10" weightX="0.1" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField2">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format subtype="1" type="0"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[200, 30]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="1" gridY="0" gridWidth="1" gridHeight="1" fill="2" ipadX="0" ipadY="0" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="10" weightX="0.1" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField3">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format subtype="1" type="0"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[200, 30]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="1" gridY="8" gridWidth="1" gridHeight="1" fill="2" ipadX="0" ipadY="0" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="10" weightX="0.1" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField4">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format subtype="1" type="0"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[200, 30]"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jFormattedTextField4ActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="3" gridY="0" gridWidth="3" gridHeight="1" fill="2" ipadX="0" ipadY="0" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="10" weightX="0.1" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField5">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="UUU" subtype="-1" type="5"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[200, 30]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="3" gridY="2" gridWidth="1" gridHeight="1" fill="2" ipadX="0" ipadY="0" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="10" weightX="0.1" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField6">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="###-####" subtype="-1" type="5"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[200, 30]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="5" gridY="2" gridWidth="1" gridHeight="1" fill="2" ipadX="0" ipadY="0" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="10" weightX="0.1" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField7">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="#############" subtype="-1" type="5"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[200, 30]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="3" gridY="3" gridWidth="3" gridHeight="1" fill="2" ipadX="0" ipadY="0" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="10" weightX="0.1" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="jFormattedTextField8">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+          <Format format="UUU UUU" subtype="-1" type="5"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[200, 30]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="3" gridY="6" gridWidth="3" gridHeight="1" fill="2" ipadX="0" ipadY="0" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="10" weightX="0.1" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextField1">
+      <Properties>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[200, 30]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout" value="org.netbeans.modules.form.compat2.layouts.DesignGridBagLayout$GridBagConstraintsDescription">
+          <GridBagConstraints gridX="3" gridY="1" gridWidth="3" gridHeight="1" fill="2" ipadX="0" ipadY="0" insetsTop="2" insetsLeft="2" insetsBottom="0" insetsRight="1" anchor="10" weightX="0.1" weightY="0.0"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>
